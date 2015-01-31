@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 function getData() {
-	$.getJSON("js/mersmann_basballcard.json", function(data, error) {
+	$.getJSON("js/mersmann_baseballcard.json", function(data, error) {
 		playerData = data;
 		drawStuff();
 	});
@@ -32,7 +32,7 @@ function drawStuff() {
 
 	$(".chart").append("<h1>"+playerName+"</h1>");
 	$(".chart").append("<h3>"+playerTeam+"</h3>");
-	$(".chart").append("<p>In "+lastSeasonYear+", "+playerName+" hit "+lastSeasonHomeRuns+" home runs for the "+lastSeasonTeam);
+	$(".chart").append("<p>In "+lastSeasonYear+", "+playerName+" hit "+lastSeasonHomeRuns+" home runs for the "+lastSeasonTeam+".");
 
 }
 
