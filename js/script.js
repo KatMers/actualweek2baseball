@@ -31,9 +31,9 @@ function drawStuff() {
 	var lastSeasonTeam = lastSeasonStats.club;
 
 	$(".chart").append("<h1>"+playerName+"</h1>");
-	$(".chart").append("<h3>"+playerTeam+"</h3>"):
+	$(".chart").append("<h3>"+playerTeam+"</h3>");
 	$(".chart").append("<p>In "+lastSeasonYear+", "+playerName+" hit "+lastSeasonHomeRuns+" home runs for the "+lastSeasonTeam);
-	
+
 }
 
 
